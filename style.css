@@ -12,7 +12,10 @@
 
 /* nav style start========================= */
 
-
+.nav{
+    display: flex;
+    justify-content: center;
+}
 .container{
     width: 1440px;
     background: rgba(255, 144, 14, 0.1);  
@@ -50,7 +53,10 @@
 }
 
 /* Brand style start =================================== */
-
+.container_all{
+    display: flex;
+    justify-content: center;
+}
 .brand_container{
     width: 1440px;    
     display: flex;
@@ -98,7 +104,7 @@
 }
 
 /* Quick Style start ======================= */
-.container_quick{
+.container_two{
     width: 1440px;
     background: #fff;    
     display: flex;
@@ -186,8 +192,45 @@
 }
 .love_item{
     padding: 25px 25px 35px 25px;
-    background: green;
+    background: #fff;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 30px;
 }
+
+/* extra btn ======================================= */
+ .extra_btn{
+    padding: 32px 36px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    position: relative;
+    bottom: 100px;
+    
+ }
+ .exp{
+    font-size: 25px;
+    font-weight: 500;
+ }
+
+ /* Some Facts Start ====================== */
+ .some_title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+ }
+ .some_dep{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+ }
+ .container_some{
+    text-align: left;
+    width: 1200px;
+    margin-bottom: 100px;
+ }
