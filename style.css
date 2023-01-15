@@ -220,6 +220,12 @@
  }
 
  /*========================================== Some Facts Start ====================== */
+ 
+ .container_some{
+    text-align: left;
+    width: 1440px;
+    margin-bottom: 100px;
+ }
  .some_title{
     color: #131313;
     font-size: 45px;
@@ -232,11 +238,7 @@
     font-weight: 400;
     padding-top: 24px;
  }
- .container_some{
-    text-align: left;
-    width: 1440px;
-    margin-bottom: 100px;
- }
+ 
 
  /*======================================= award style start =================== */
  .box{
@@ -382,3 +384,119 @@
     font-weight: 400;
     color: #424242;
  }
+
+ /*======================================================== 
+                      @Media-Brackpoint
+ =========================================================*/
+
+ /*================ phone device =============*/
+
+@media only screen and (max-width:576px) {
+    
+    .container{
+        width: 100%;
+        /* background: red;   */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    .menu_item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .container_two{
+        width: 100%;
+        background: #fff;    
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .brand_container{
+        width: 100%;
+    }
+    .banner_img{
+        width: 100%;
+        
+     }
+    
+    /* quick ================================ */
+    .quick{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 50px;
+        padding-bottom: 85px;
+    }
+    .picture_all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+    /* love ===================== */
+    .love_section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 130px;
+        justify-content: center;
+    
+    }
+    .love_img img{
+        width: 100%;
+        height: 100%;
+        margin-left: 40px;
+    }
+    /* some/ ========================= */
+    .container_some, .container_text{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+     .container_all{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container_two{
+        width: 80%;
+        background: #fff;    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* award======================= */
+    .boxs{
+        width: 100%;
+        flex-direction : column;
+        
+     }
+     .icon_section{
+        display: flex;
+        flex-direction: column;
+        
+     }
+     
+    
+     /* profile ======================= */
+     .profiles{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+     }
+     .container_area{
+        width: 100%;
+        text-align: center;
+     }
+     
+     }
+    
+
+    
+
+    
