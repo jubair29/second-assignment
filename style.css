@@ -8,7 +8,7 @@
 }
 
 
-/* nav style start========================= */
+/*============================================== nav style start========================= */
 
 .nav{
     display: flex;
@@ -50,7 +50,7 @@
     color: #FF900E;
 }
 
-/* Brand style start =================================== */
+/*=================================== Brand style start =================================== */
 .container_all{
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
     height: 700px;
 }
 
-/* Quick Style start ======================= */
+/*======================================= Quick Style start ======================= */
 .container_two{
     width: 1920px;
     background: #fff;    
@@ -148,7 +148,7 @@
     font-weight: 700;
 }
 
-/* Love sytle start ================================================= */
+/*================================= Love sytle start ===================== */
 
 .love_section{
     display: flex;
@@ -201,7 +201,7 @@
     margin-bottom: 30px;
 }
 
-/* extra btn ======================================= */
+/*======================================= extra btn ======================================= */
  .extra_btn{
     padding: 32px 36px;
     background: #FF900E;
@@ -219,7 +219,7 @@
     font-weight: 500;
  }
 
- /* Some Facts Start ====================== */
+ /*========================================== Some Facts Start ====================== */
  .some_title{
     color: #131313;
     font-size: 45px;
@@ -238,7 +238,7 @@
     margin-bottom: 100px;
  }
 
- /* award style start =================== */
+ /*======================================= award style start =================== */
  .box{
     border: 1px solid #FF900E;
     border-radius: 8px;
@@ -273,7 +273,7 @@
     padding-bottom: 140px;
  }
 
- /* our sponspor style start=========================== */
+ /*================================== our sponspor style start=========================== */
  .container_text{
     text-align: center;
     width: 1440px;
@@ -295,7 +295,7 @@
 
  }
 
-/* icon section style strat ============================ */
+/*================================ icon section style strat ============================ */
  .icon_section{
     display: flex;
     width: 1440px;
@@ -305,7 +305,7 @@
     filter: grayscale(100%);
  }
 
- /* our team style start ==================================== */
+ /*================================ our team style start ==================================== */
 
  .container_text{
     text-align: center;
@@ -329,13 +329,13 @@
 
  }
 
- /* developer profile style start ============== */
+ /*============================= developer profile style start ============== */
  .profile{
     border-top: 5px solid gray;
     border-bottom: 5px solid gray;
     border-radius: 8px;
     text-align: center;
-    padding: 45px 36px 60px;
+    padding: 35px 26px 40px;
     transition: all linear 0.3s;
  }
  
@@ -344,7 +344,7 @@
     width: 200px;
  }
  .profile_title{
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 600;
     color: #424242;
     padding: 10px 0;
@@ -359,4 +359,26 @@
     justify-content: space-around;
     width: 1440px;
     padding-bottom: 140px;
+ }
+ /*================================ footer part start =============================== */
+
+ .container_area{
+
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFF4E7;
+
+ }
+ .footer_part{
+    padding-bottom: 100px;
+
+ }
+ .fot_title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
  }
